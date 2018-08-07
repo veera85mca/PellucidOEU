@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TabOEU">
+<listeners>
+<listener class-name="windowoeu.Getlistener"/>
+</listeners>
+  <test name="Testdatatab">
+   <groups>
+    <run>
+    <include name="login"/>
+    <include name="head"/>
+    <include name="membersfamily"/>
+    </run>
+    </groups>
+    <classes>
+      <class name="windowoeu.Tabtest"/>
+    </classes>
+  </test> <!-- Testdatatab -->
+</suite> <!-- TabOEU -->
